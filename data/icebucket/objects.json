@@ -1,0 +1,49 @@
+[
+	{
+		"name"		: "Bill Gates",
+		"type"		: "Business/Tech",
+		"depends"	: [
+			"Mark Zuckerberg"
+		]
+	}, {
+		"name"		: "Chris Anderson",
+		"type"		: "Business/Tech",
+		"depends"	: [
+			"Bill Gates"
+		]
+	}, {
+		"name"		: "Elon Musk",
+		"type"		: "Business/Tech",
+		"depends"	: [
+			"Bill Gates"
+		]
+	}, {
+		"name"		: "Macklemore",
+		"type"		: "Entertainment",
+		"depends"	: [
+			"Reed Hastings"
+		]
+	}, {
+		"name"		: "Mark Zuckerberg",
+		"type"		: "Business/Tech",
+		"depends"	: []
+	}, {
+		"name"		: "Reed Hastings",
+		"type"		: "Business/Tech",
+		"depends"	: [
+			"Mark Zuckerberg"
+		]
+	}, {
+		"name"		: "Ryan Seacrest",
+		"type"		: "TV",
+		"depends"	: [
+			"Bill Gates"
+		]
+	}, {
+		"name"		: "Sheryl Sandberg",
+		"type"		: "Business/Tech",
+		"depends"	: [
+			"Mark Zuckerberg"
+		]
+	}
+]
