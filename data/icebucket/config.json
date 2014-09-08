@@ -80,7 +80,7 @@
             "has"    : { "type" : "Music" },
             "type"   : "position",
             "x"      : 0.8,
-            "y"      : 0.5,
+            "y"      : 0.3,
             "weight" : 0.7
         }, {
             "has"    : { "type" : "Politics" },
@@ -91,8 +91,8 @@
         }, {
             "has"    : { "type" : "Cinema" },
             "type"   : "position",
-            "x"      : 0.8,
-            "y"      : 0.8,
+            "x"      : 0.5,
+            "y"      : 0.1,
             "weight" : 0.7
         }
 

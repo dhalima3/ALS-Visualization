@@ -1,23 +1,69 @@
 [
 	{
+		"name"		: "Ben Affleck",
+		"type"		: "Cinema",
+		"depends"	: []
+	}, {
 		"name"		: "Bill Gates",
 		"type"		: "Business/Tech",
 		"depends"	: [
 			"Mark Zuckerberg"
 		]
 	}, {
+		"name"		: "Bob Iger",
+		"type"		: "Business/Tech",
+		"depends"	: [
+			"Tim Cook"
+		]
+	}, {			
 		"name"		: "Chris Anderson",
 		"type"		: "Business/Tech",
 		"depends"	: [
 			"Bill Gates"
 		]
 	}, {
+		"name"		: "Chris Evans",
+		"type"		: "Cinema",
+		"depends"	: [
+			"Chris Hemsworth"
+		]
+	}, {		
+		"name"		: "Chris Hemsworth",
+		"type"		: "Cinema",
+		"depends"	: [
+			"Robert Downey Junior"
+		]
+	}, {				
+		"name"		: "Chris Pratt",
+		"type"		: "Cinema",
+		"depends"	: [
+			"Bob Iger"
+		]
+	}, {			
+		"name"		: "Dr. Dre",
+		"type"		: "Music",
+		"depends"	: [
+			"Tim Cook"
+		]
+	}, {		
 		"name"		: "Elon Musk",
 		"type"		: "Business/Tech",
 		"depends"	: [
 			"Bill Gates"
 		]
 	}, {
+		"name"		: "Jimmy Kimmel",
+		"type"		: "Entertainment",
+		"depends"	: [
+			"Ben Affleck"
+		]
+	}, {
+		"name"		: "Kendrick Lamar",
+		"type"		: "Music",
+		"depends"	: [
+			"Dr. Dre"
+		]
+	}, {				
 		"name"		: "Macklemore",
 		"type"		: "Entertainment",
 		"depends"	: [
@@ -28,12 +74,24 @@
 		"type"		: "Business/Tech",
 		"depends"	: []
 	}, {
+		"name"		: "Neil Patrick Harris",
+		"type"		: "Entertainment",
+		"depends"	: [
+			"Ben Affleck"
+		]
+	}, {		
 		"name"		: "Reed Hastings",
 		"type"		: "Business/Tech",
 		"depends"	: [
 			"Mark Zuckerberg"
 		]
 	}, {
+		"name"		: "Robert Downey Junior",
+		"type"		: "Cinema",
+		"depends"	: [
+			"Bob Iger"
+		]
+	}, {			
 		"name"		: "Ryan Seacrest",
 		"type"		: "TV",
 		"depends"	: [
@@ -45,5 +103,66 @@
 		"depends"	: [
 			"Mark Zuckerberg"
 		]
-	}
+	}, {
+		"name"		: "Tim Cook",
+		"type"		: "Business/Tech",
+		"depends"	: []
+
+
+
+	
+
+	}, {
+		"name"		: "Taylor Swift",
+		"type"		: "Music",
+		"depends"	: []
+	}, {
+		"name"		: "Ed Sheeran",
+		"type"		: "Music",
+		"depends"	: [
+			"Taylor Swift"
+		]
+	}, {			
+		"name"		: "Ludacris",
+		"type"		: "Music",
+		"depends"	: []
+	}, {		
+		"name"		: "50 Cent",
+		"type"		: "Music",
+		"depends"	: [
+			"Ludacris",
+			"Bow Wow"
+		]
+	}, {		
+		"name"		: "Bow Wow",
+		"type"		: "Music",
+		"depends"	: [
+			"Chris Brown"
+		]
+	}, {				
+		"name"		: "Chris Brown",
+		"type"		: "Music",
+		"depends"	: []
+	}, {				
+		"name"		: "Drake",
+		"type"		: "Music",
+		"depends"	: [
+			"Tyga"
+		]
+
+	}, {		
+		"name"		: "Tyga",
+		"type"		: "Music",
+		"depends"	: [
+			"Chris Brown"
+		]
+	}, {				
+		"name"		: "Selena Gomez",
+		"type"		: "Music",
+		"depends"	: [
+			"Ryan Seacrest",
+			"Taylor Swift"
+		]
+	}	
+	
 ]
